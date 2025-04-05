@@ -24,11 +24,11 @@
 Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
-`Работающий сервис
-![KeepalivedWorkService](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/1.jpg)`
+Работающий сервис
+![KeepalivedWorkService](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/1.jpg)
 
-`Проверка недоступности порта
-![KeepalivedWorkService](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/2.jpg)`
+Проверка недоступности порта
+![CheckPort](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/2.jpg)
 
-`Проверка недоступности файла index.html
-![KeepalivedWorkService](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/3.jpg)`
+Проверка недоступности файла index.html
+![CheckIndexHTML](https://github.com/vonoid/Disaster-recovery-Keepalived_1/blob/c95e55bb187c620ad9f93d5268dbf57d5dfe3b78/img/3.jpg)
